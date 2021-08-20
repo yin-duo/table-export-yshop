@@ -1,55 +1,19 @@
 {
-  "name": "@acgsan/table-export-yshop",
-  "description": "vue plugin to export data to text | json | csv | xlsx",
-  "version": "1.0.18",
-  "author": "yshop <dev@qq.com>",
-  "license": "AGPL-3.0",
-  "main": "dist/export.js",
-  "private": false,
-  "files": [
-    "/dist/*",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ],
-  "bugs": {
-    "url": "https://github.com/y-shop/yshop-ytableexport/issues"
+  "name": "table-export-yshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/y-shop/yshop-ytableexport#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y-shop/yshop-ytableexport.git"
+    "url": "git+https://github.com/yin-duo/table-export-yshop.git"
   },
-  "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "release": "npm version patch && npm publish --access=public"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yin-duo/table-export-yshop/issues"
   },
-  "keywords": [
-    "csv",
-    "xls",
-    "json",
-    "txt",
-    "table-export"
-  ],
-  "dependencies": {
-    "file-saver": "^2.0.0",
-    "xlsx": "^0.15.6"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.0.5",
-    "css-loader": "^0.28.7",
-    "file-loader": "^1.1.4",
-    "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.6.0"
-  }
+  "homepage": "https://github.com/yin-duo/table-export-yshop#readme"
 }
