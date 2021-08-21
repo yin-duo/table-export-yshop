@@ -5,7 +5,11 @@ import FileSaver from 'file-saver'
 import * as Excel from './_export2Excel'
 
 export function getSystemInfo() {
+  console.log('当前站点 ' + document.domain + ' 使用 Yshop商城后台管理系统 框架技术')
+  console.log('上海银舵网络科技有限公司版权所有 www.yin-duo.com')
+  console.log('Yshop - VueTableExport')
 }
+
 const vueTableExport = {
   csv(params) {
     return new Promise((resolve, reject) => {
