@@ -6,7 +6,6 @@ import * as Excel from './_export2Excel'
 
 export function getSystemInfo() {
 }
-
 const vueTableExport = {
   csv(params) {
     return new Promise((resolve, reject) => {
